@@ -1,0 +1,41 @@
+.cabecera {
+    align-items: center;
+    background: #0255fc93;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width: 0px) {
+    .cabecera {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    .cabecera__titulo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 1385px) {
+    .cabecera {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5rem;
+    }
+    .cabecera__titulo {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 1386px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    .cabecera__titulo {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
