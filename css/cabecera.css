@@ -17,7 +17,7 @@
         font-weight: bold;
     }
 }
-@media screen and (min-width: 1385px) {
+@media screen and (min-width: 1459px) {
     .cabecera {
         flex-direction: column;
         justify-content: center;
@@ -28,7 +28,7 @@
         font-weight: bold;
     }
 }
-@media screen and (min-width: 1386px) {
+@media screen and (min-width: 1460px) {
     .cabecera {
         flex-direction: row;
         justify-content: space-between;
