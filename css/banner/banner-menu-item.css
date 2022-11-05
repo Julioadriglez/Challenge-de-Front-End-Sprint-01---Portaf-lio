@@ -1,0 +1,5 @@
+.banner__menu--item {
+    display: flex;
+    list-style: none;
+    padding-right: 50px;
+}
