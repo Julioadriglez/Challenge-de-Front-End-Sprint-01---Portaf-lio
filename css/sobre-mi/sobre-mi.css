@@ -1,0 +1,7 @@
+.sobre__mi {
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1rem;
+}
