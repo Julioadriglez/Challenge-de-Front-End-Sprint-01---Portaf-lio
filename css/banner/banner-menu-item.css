@@ -1,5 +1,11 @@
 .banner__menu--item {
+    color: #464646;
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
     list-style: none;
     padding-right: 50px;
 }
