@@ -1,0 +1,12 @@
+.skills__contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 10%;
+    height: 30%;
+    padding: 1rem;
+    gap: 8px;
+
+
+}
