@@ -1,0 +1,8 @@
+.hobbies__contenedor {
+    background: #F5F5F5;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
