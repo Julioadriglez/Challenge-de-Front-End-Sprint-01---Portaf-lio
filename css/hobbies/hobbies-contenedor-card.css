@@ -1,0 +1,9 @@
+.hobbies__contenedor--card {
+    background: #F5F5F5;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    width: 50%;
+}
