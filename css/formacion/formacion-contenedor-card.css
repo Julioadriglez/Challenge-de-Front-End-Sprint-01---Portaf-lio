@@ -1,0 +1,6 @@
+.formacion__contenedor--card {
+    align-content: center;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+}
