@@ -1,8 +1,8 @@
 .formacion {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: #EAF2FD;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-
+    justify-items: center;
 }
