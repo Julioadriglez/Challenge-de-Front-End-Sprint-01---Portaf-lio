@@ -1,0 +1,9 @@
+.formacion__contenedor--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 150px;
+    width: 180px;
+    
+}
