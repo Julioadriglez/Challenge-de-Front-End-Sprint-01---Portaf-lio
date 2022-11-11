@@ -1,0 +1,12 @@
+.formacion__card--texto {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: .7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: .8rem;
+    width: 100px;
+}

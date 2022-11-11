@@ -1,0 +1,11 @@
+.formacion__card {
+    align-items: center;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: .6rem;
+    padding: 1rem;
+    text-align: center;
+    width: 180px;
+}
