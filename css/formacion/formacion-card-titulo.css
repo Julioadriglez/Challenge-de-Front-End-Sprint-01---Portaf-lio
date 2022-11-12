@@ -1,10 +1,12 @@
 .formacion__card--titulo {
-    text-align: left;
+    
     display: flex;
     font-size: .8rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: .9rem;
+    text-align: left;
+    padding-top: .5rem;
     width: 150px;
 }
