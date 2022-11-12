@@ -1,0 +1,8 @@
+.experiencia {
+    align-items: center;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
