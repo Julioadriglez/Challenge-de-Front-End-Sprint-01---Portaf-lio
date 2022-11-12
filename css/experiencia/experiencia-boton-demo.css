@@ -1,0 +1,22 @@
+.experiencia__boton--demo {
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .7rem;
+    line-height: .8rem;
+    justify-content: center;
+    justify-items: center;
+    height: 40px;
+    text-decoration: none;
+    transition: 1s all;
+    width: 100px;
+}
+.experiencia__boton--demo:hover {
+    color:#2A7AE4;
+    background: rgb(255, 217, 148);
+}
