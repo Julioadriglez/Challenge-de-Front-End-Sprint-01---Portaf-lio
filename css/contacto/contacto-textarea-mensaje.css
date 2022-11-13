@@ -1,0 +1,10 @@
+.contacto__textarea--mensaje {
+    color: #464646;
+    border: 0px;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    height: 133px;
+    line-height: .9rem;
+    width: 460px;
+}
