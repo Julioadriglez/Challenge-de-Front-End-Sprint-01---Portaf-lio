@@ -1,0 +1,6 @@
+.contacto__form {
+    align-items: flex-start;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+}
