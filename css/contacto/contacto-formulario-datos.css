@@ -1,0 +1,11 @@
+.contacto__formulario--datos {
+    align-items: flex-start;
+    background: white;
+    color: #2A7AE4;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: .9rem;
+    padding: 5px 5px 0 5px;
+    width: 460px;
+}
