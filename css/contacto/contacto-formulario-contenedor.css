@@ -1,0 +1,10 @@
+.contacto__formulario--contenedor {
+    align-items: flex-start;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    height: 596px;
+    width: 460px;
+    margin-left: 20px;
+
+}
