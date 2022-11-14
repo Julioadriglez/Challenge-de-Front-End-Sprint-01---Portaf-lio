@@ -1,6 +1,19 @@
 .formacion__contenedor--card {
     align-content: center;
+    justify-content: center;
     background: #EAF2FD;
     display: flex;
     flex-direction: row;
+}
+@media screen and (min-width: 0px) {
+    .formacion__contenedor--card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .formacion__contenedor--card {
+        flex-wrap: wrap;
+    }
 }
