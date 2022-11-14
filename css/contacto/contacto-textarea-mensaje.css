@@ -6,6 +6,19 @@
     font-weight: 400;
     height: 133px;
     line-height: .9rem;
+    outline: none;
     padding: 0px 5px 0 5px;
-    width: 460px;
+}
+.contacto__textarea--mensaje::placeholder {
+    color: #4646465c;
+}
+@media screen and (min-width: 0px) {
+    .contacto__textarea--mensaje{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 760px) {
+    .contacto__textarea--mensaje{
+        width: 98%;
+    }
 }
