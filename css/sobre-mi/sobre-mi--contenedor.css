@@ -1,7 +1,17 @@
 .sobre__mi--contenedor {
     display: flex;
     flex-direction: column;
-    height: 25%px;
-    width: 74%;
+}
+@media screen and (min-width: 0px) {
+    .sobre__mi--contenedor {
+        align-items: center;
+        width: 100%;
+    }
+}
 
+@media screen and (min-width:760px) {
+    .sobre__mi--contenedor {
+        height: 25%;
+        width: 74%;
+    }
 }
