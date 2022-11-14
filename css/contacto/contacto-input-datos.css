@@ -1,9 +1,24 @@
-.contacto__input--datos {
+.contacto__input--datos{
     border: 0px;
     color: #464646;
     font-size: .8rem;
-    height: 50px;
-    margin-bottom: 1rem;
-    padding: 0px 5px 0 5px;
-    width: 460px;
+    font-weight: 400;
+    height: 30px;
+    margin-bottom: 2rem;
+    outline: none;
+    padding: 0 5px;
+}
+.contacto__input--datos::placeholder {
+     color: #4646465c; 
+     font-size: .8rem;
+    }
+@media screen and (min-width: 0px) {
+    .contacto__input--datos{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 760px) {
+    .contacto__input--datos{
+        width: 98%;
+    }
 }
