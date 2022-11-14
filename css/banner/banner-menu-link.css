@@ -5,7 +5,18 @@
     text-transform: lowercase;
 }
 .banner__menu--link:hover {
+    color: blue;
     text-decoration: underline;
-    color: rgb(3, 7, 85);
     font-weight: bold;
+}
+@media screen and (min-width: 0px) {
+    .banner__menu--link {
+       font-size: .6rem;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .banner__menu--link {
+        font-size: 1rem;
+    }
 }
