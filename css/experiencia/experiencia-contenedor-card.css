@@ -1,8 +1,37 @@
 .experiencia__contenedor--card {
-    align-items: center;
     background: #F5F5F5;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
     margin-bottom: 3rem;
+}
+@media screen and (min-width: 0px) {
+    .experiencia__contenedor--card{
+        flex-direction: column;
+        width: 80%;
+    }
+    .experiencia__card--img {
+        order: 1;
+        width: 100%;
+    }
+    .experiencia__contenedor--texto {
+        order: 2;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .experiencia__contenedor--card {
+        flex-direction: row;
+        width: 90%;
+    }
+    .experiencia__card--img {
+        order: 1;
+        width: 60%;
+    }
+    .experiencia__contenedor--texto {
+        order: 2;
+        width: 20%;
+    }
 }
