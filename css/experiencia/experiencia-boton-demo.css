@@ -8,10 +8,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: .7rem;
-    line-height: .8rem;
+    height: 40px;
     justify-content: center;
     justify-items: center;
-    height: 40px;
+    line-height: .8rem;
+    margin-bottom: 20px;
     text-decoration: none;
     transition: 1s all;
     width: 100px;
