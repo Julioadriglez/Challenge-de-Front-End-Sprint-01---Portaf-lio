@@ -1,9 +1,23 @@
 .banner__contenido {
     display: flex;
     flex-direction: column;
-    flex: 2;
-    align-items: flex-start;
-    padding-left: 3rem;
-    gap: 24px;
-    width: 40%;
+}
+@media screen and (min-width: 0px) {
+    .banner__contenido {
+        align-items: center;
+        padding-right: 1rem;
+        gap: 24px;
+        text-align: justify;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .banner__contenido {
+        align-items: flex-start;
+        flex: 2;
+        padding-right: 1rem;
+        gap: 24px;
+        width: 40%;   
+    }    
 }
