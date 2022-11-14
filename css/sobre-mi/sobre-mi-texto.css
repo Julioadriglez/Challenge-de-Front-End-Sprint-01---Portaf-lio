@@ -5,5 +5,19 @@
     font-size: 1.2rem;
     line-height: 1.3rem;
     text-align: justify;
-    width: 72%;
+
+}
+@media screen and (min-width: 0px) {
+    .sobre__mi--texto {
+        align-items: center;
+        width: 80%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .sobre__mi--texto {
+        height: 98%;
+        width: 80%;
+    }
 }
