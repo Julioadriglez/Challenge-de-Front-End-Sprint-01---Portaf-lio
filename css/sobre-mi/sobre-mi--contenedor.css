@@ -11,7 +11,8 @@
 
 @media screen and (min-width:760px) {
     .sobre__mi--contenedor {
-        height: 25%;
+        align-items: center;
+        height: 100%;
         width: 74%;
     }
 }

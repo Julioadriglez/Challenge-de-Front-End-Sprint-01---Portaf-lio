@@ -4,6 +4,20 @@
     justify-content: center;
     background: url(../../img/foto\ julio.png) no-repeat center / cover;
     border-radius: 100%;
-    height: 368px;
-    width: 368px;
+    height: 25rem;
+    width: 25rem;
+}
+@media screen and (min-width: 0px) {
+    .skills__contenedor--card{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+}
+
+@media screen and (min-width:760px) {
+    .skills__contenedor--card {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }

@@ -1,12 +1,15 @@
 @media screen and (min-width: 0px) {
     .banner__menu--lista {
         display: flex;
-        font-size: .8rem;
+        font-size: .9rem;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 @media screen and (min-width: 768px) {
     .banner__menu--lista{
         font-size: 1.3rem;
         display: flex;
+        flex-wrap: nowrap;
     }
 }
